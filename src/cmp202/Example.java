@@ -12,6 +12,7 @@ package cmp202;
  */
 public class Example {
 
+    int age;// global variable
     /**
      * @param args the command line arguments
      */
@@ -20,5 +21,18 @@ public class Example {
         System.out.println("Hello world");
         System.out.print("Hello world again");
     }
+    
+    public void calculateSpeed()
+    {
+        float speed; //local variable
+    }
+    
+    
+    public int calculateVelocity()
+    {
+        float speed; //local variable
+        return 0;
+    }
+    
     
 }
